@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Page personnelle – Théo Lo Presti</title>
+<script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+<style>
+body {
+  margin: 0;
+  font-family: "Georgia", serif;
+  color: #2b3a33;
+  background: url('fractale.jpg') center/cover fixed no-repeat;
+}
+
+.overlay {
+  background: rgba(255,255,255,0.1);
+  min-height: 100vh;
+  padding: 40px;
+}
+
+h1 {
+  text-align: center;
+  font-size: 3rem;
+  margin-bottom: 20px;
+}
+
+h2 {
+  font-size: 2rem;
+  margin-top: 60px;
+}
+
+.section {
+  background: rgba(255,255,255,0.75);
+  border-radius: 12px;
+  padding: 20px 25px;
+  margin-top: 20px;
+  box-shadow: 0 3px 10px rgba(0,0,0,0.1);
+}
+
+.upload-box {
+  border: 2px dashed #8fa39e;
+  padding: 30px;
+  border-radius: 12px;
+  text-align: center;
+  margin-top: 15px;
+  background: rgba(255,255,255,0.6);
+}
+</style>
+</head>
+<body>
+<div class="overlay">
+  <h1>Page personnelle de Théo Lo Presti</h1>
+
+  <div class="section">
+    <h2>Accueil</h2>
+    <p>Bienvenue sur ma page perso ! Ici je partage quelques développements, petits résultats et exercices mathématiques (niveau sup), histoire de ne pas les perdre dans un coin de mon ordinateur.</p>
+  </div>
+
+  <div class="section">
+    <h2><span class="math">\( \mathbb{A}\)</span>lgèbre</h2>
+    <p>Quelques travaux réalisés pour approfondir mon cours d'algèbre :</p>
+    <div class="upload-box">
+  <a href="pdf/jordanisation.pdf" target="_blank">Jordanisation et tableaux de Young d'une matrice de <span class="math">\( \mathcal{M}_6(\mathbb{C}) \)</span>
+  </a><br>
+  <a href="pdf/lagrange .pdf" target="_blank">Une application du théorème de Lagrange
+  </a><br>
+  <a href="pdf/Endomorphisme particulier .pdf" target="_blank"> Quelques exercices d'algèbre linéaire <a/>
+</div>
+  </div>
+
+  <div class="section">
+    <h2><span class="math">\( \mathbb{A}\)</span>nalyse</h2>
+    <p>Et ici des travaux sur mes cours d'analyse ( et plus )</p>
+    <div class="upload-box">
+  <a href="pdf/equivalence.pdf" target="_blank">Equivalence de normes dans <span class="math">\( \mathbb{K}^n \)</span>
+  </a><br>
+  <a href="pdf/Dénombrabilité.pdf" target="_blank">Dénombrabilité
+  </a><br>
+  <a href="pdf/equivalent d'une suite.pdf" target="_blank"> Equivalent d'une suite via Césaro
+  </a>
+
+</div>
+  </div>
+
+  <div class="section">
+    <h2><span class="math">\( \mathbb{P}\)</span>robabilité</h2>
+    <p>Et enfin un peu de probabilité à mes heures perdues</p>
+    <div class="upload-box">
+  <a href="pdf/Proba exo.pdf" target="_blank"> Loi uniforme discrète
+  </a>
+  </div>
+</div>
+<script>
+    window.onload = function() {
+      MathJax.typesetPromise();
+    };
+  </script>
+</body>
+<footer style="text-align:center; margin-top:40px; padding:20px; background: rgba(255,255,255,0.8); border-radius:12px;">
+  <p>Bien sûr cette page a été créer pour être constamment enrichie , vous pouvez me signaler les erreurs ici : <a href="mailto:theo.lo-presti@etu.univ-lyon1.fr">theo.lo-presti@etu.univ-lyon1.fr</a></p>
+</footer>
+</html>
